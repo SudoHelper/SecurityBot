@@ -66,7 +66,7 @@ install_rocks() {
   ./.luarocks/bin/luarocks install lub
   RET=$?; if [ $RET -ne 0 ];
     then echo "Error. Exiting."; exit $RET;
-  fi
+  f
 
   ./.luarocks/bin/luarocks install luaexpat
   RET=$?; if [ $RET -ne 0 ];
